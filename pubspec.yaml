@@ -1,15 +1,13 @@
 name: task_cli
-description: A sample command-line application.
+description: A command-line application.
 version: 1.0.0
-# repository: https://github.com/my_org/my_repo
+# ...
 
 environment:
-  sdk: ^3.12.2
+  sdk: ^3.14.0-95.2.beta
 
 # Add regular dependencies here.
 dependencies:
-  dart_tui: ^1.4.0
-  enough_ascii_art: ^1.1.2
   path: ^1.9.0
 
 dev_dependencies:
